@@ -11,10 +11,15 @@
 
   <header>
     <h1>nik-knak</h1>
-    <nav>
+    <div class="burger-menu" id="burger-icon">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <nav id="nav-links">
       <a href="#about-me">About</a>
       <a href="#projects">Projects</a>
-      <a href="#">Contact</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
@@ -59,6 +64,17 @@
   <footer class="footer">
     © 2025 nik-knack
   </footer>
+
+  <script>
+    // Burger Menu Toggle Function
+    const burgerIcon = document.getElementById('burger-icon');
+    const navLinks = document.getElementById('nav-links');
+
+    burgerIcon.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      burgerIcon.classList.toggle('open');
+    });
+  </script>
 
 </body>
 </html>
