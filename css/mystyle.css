@@ -6,6 +6,8 @@
   --font-main: 'Quicksand', sans-serif;
 }
 
+html { scroll-behavior: smooth; }
+
 body {
   margin: 0;
   font-family: var(--font-main);
@@ -80,7 +82,8 @@ nav a {
 }
 
 .about h3,
-.projects h3 {
+.projects h3 
+.contact h3{
   font-size: 2rem;
   margin-bottom: 1rem;
 }
