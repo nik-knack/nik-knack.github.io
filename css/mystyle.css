@@ -51,23 +51,6 @@ nav a {
   transition: all 0.3s ease;
 }
 
-.hero {
-  background-color: var(--lavender);
-  padding: 5rem 2rem;
-  text-align: center;
-}
-
-.hero h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  max-width: 600px;
-  margin: 0 auto 2rem;
-}
-
 .btn {
   padding: 0.75rem 1.5rem;
   border: none;
@@ -191,15 +174,6 @@ nav a {
     bottom: 8px;
   }
 
-  .hero h2 {
-    font-size: 2rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-    max-width: 90%;
-  }
-
   .btn {
     padding: 0.7rem 1.3rem;
   }
@@ -220,14 +194,6 @@ nav a {
 }
 
 @media (max-width: 480px) {
-  .hero h2 {
-    font-size: 1.8rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-
   .btn {
     font-size: 0.9rem;
   }
