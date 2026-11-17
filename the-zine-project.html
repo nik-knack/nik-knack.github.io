@@ -3,21 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1</title>
+    <title>The Zine Project</title>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="./css/book.css">
+    <script src="https://kit.fontawesome.com/4b62ac5249.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <h1>Dania Macias</h1>
-    <nav id="nav-links">
-      <a href="/index.html">Home</a>
-      <a href="#about-me">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#resume">Resume</a>
-      <a href="#contact">Contact</a> 
-    </nav>
-  </header>
-    
+  <!-- Previous Button -->
+  <button id="prev-btn">
+    <i class="fas fa-arrow-circle-left fa-2xl"></i>
+  </button>
+
+  <!-- Book -->
+  <div id="book" class="book">
+    <!-- Paper 1 -->
+    <div id="p1" class="paper">
+      <div class="front">
+        <div id="f1" class="front-content">
+          <h1>Front 1</h1>
+        </div>
+      </div>
+
+      <div class="back">
+        <div id="b1" class="back-content">
+          <h1>Back 1</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Paper 2 -->
+    <div id="p2" class="paper">
+      <div class="front">
+        <div id="f2" class="front-content">
+          <h1>Front 2</h1>
+        </div>
+      </div>
+
+      <div class="back">
+        <div id="b2" class="back-content">
+          <h1>Back 2</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Paper 3 -->
+    <div id="p3" class="paper">
+      <div class="front">
+        <div id="f3" class="front-content">
+          <h1>Front 3</h1>
+        </div>
+      </div>
+
+      <div class="back">
+        <div id="b3" class="back-content">
+          <h1>Back 3</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Next Button -->
+  <button id="next-btn">
+    <i class="fas fa-arrow-circle-right fa-2xl"></i>
+  </button>
+  <script src="./js/book.js"></script>
 </body>
 </html>
